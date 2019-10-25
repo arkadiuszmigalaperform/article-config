@@ -1,3 +1,20 @@
+# H2 Database
+spring:
+  h2:
+    console:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, env, refresh
+
+# Logging
+logging:
+  level:
+    com.arkadiusz.migala.*: debug
+
 article:
   adds:
     enabled: true
