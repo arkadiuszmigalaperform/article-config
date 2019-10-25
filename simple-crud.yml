@@ -1,8 +1,8 @@
-# H2 Database
-spring:
-  h2:
-    console:
-      enabled: true
+# # H2 Database
+# spring:
+#   h2:
+#     console:
+#       enabled: true
 
 management:
   endpoints:
