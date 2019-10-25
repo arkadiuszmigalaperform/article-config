@@ -1,4 +1,4 @@
 article:
   adds:
-    enabled: true
+    enabled: false
     content: Go to DAZN!
